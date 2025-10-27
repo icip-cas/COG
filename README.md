@@ -3,7 +3,6 @@
 <br />
 <div align="center">
   <h3 align="center">When Models Outthink Their Safety: Mitigating Self-Jailbreak in Large Reasoning Models with Chain-of-Guardrails</h3>
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
   <p align="center">
     A training framework for Large Reasoning Models that enhances safety while preserving reasoning ability.
