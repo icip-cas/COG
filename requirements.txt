@@ -1,0 +1,12 @@
+vllm
+transformers
+torch
+datasets
+pandas
+numpy
+scikit-learn
+matplotlib
+tqdm
+openai
+json-repair
+scipy
