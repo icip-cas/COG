@@ -21,9 +21,8 @@
   <!-- 🌐 <a href="https://icip-cas.github.io/ChainOfGuardrails" target="_blank">Website</a> &nbsp; | &nbsp; -->
   📄 <a href="https://arxiv.org/abs/2510.21285" target="_blank">Paper</a> &nbsp; | &nbsp;
   <!-- 🤗 <a href="https://huggingface.co/datasets/ICIP/ChainOfGuardrails" target="_blank">Dataset</a> &nbsp; | &nbsp; -->
-  <!-- 🐳 <a href="https://hub.docker.com/r/hysdhlx/chain-of-guardrails" target="_blank">Docker</a> &nbsp; | &nbsp; -->
   <!-- 🏆 <a href="https://docs.google.com/spreadsheets/d/1EXpgXq1VKw5A7l7-N2E9xt3w0eLJ2YPVPT-VrRxKZBw/edit?usp=sharing" target="_blank">Leaderboard</a>  -->
-  &nbsp; | &nbsp;
+  &nbsp; 
   🙏 <a href="#citation" target="_blank">Citation</a>
 </p>
 
