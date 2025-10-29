@@ -76,9 +76,11 @@ Once `LLaMA-Factory` is set up, you can prepare the training data and configurat
 
 Before configuring `LLaMA-Factory`, please ensure your folder structure is as follows, with `COG` and `LLaMA-Factory` located in the same parent directory:
 
+```
 your_workspace/
-├── COG/ <-- The root of this project
-└── LLaMA-Factory/ <-- The root of the LLaMA-Factory project
+├── COG/                <-- The root of this project
+└── LLaMA-Factory/      <-- The root of the LLaMA-Factory project
+```
 
 **Step 1: Locate Your Generated Data File**
 
@@ -118,15 +120,15 @@ llamafactory-cli train model_train.yaml
 
 ## Reference Results
 
-|        Method        |   SB ↓   |   SR ↓   |   WJ ↓   |    JB ↓   |   GPQA ↑  |   AIME ↑  |
-| :------------------: | :------: | :------: | :------: | :-------: | :-------: | :-------: |
-|        Vanilla       |   46.59  |   12.25  |   35.20  |   20.43   | **65.66** |  *81.67*  |
-|        STAR-1        |   18.41  |  *0.74*  |   16.80  |   35.37   |   54.55   |   72.92   |
-|       SAFEPATH       |   40.00  |   6.57   |   22.80  |   53.66   |   62.38   |   70.25   |
-|       SafeChain      |   47.95  |   16.39  |   28.40  |   70.73   |   54.30   |   71.70   |
-|        SafeKey       | **3.41** | **0.32** |  *7.32*  | **10.40** |   54.30   |   71.70   |
-|   Safety Backtrack   |   14.55  |   2.77   |   8.80   |   23.17   |   61.62   |   77.08   |
-| Safety Recomposition |  *7.05*  |   1.49   | **3.20** |  *17.07*  |  *62.38*  | **82.08** |
+|          Method          |    SB ↓    |    SR ↓    |    WJ ↓    |    JB ↓    |   GPQA ↑   |   AIME ↑   |
+| :----------------------: | :--------: | :--------: | :--------: | :--------: | :--------: | :--------: |
+|         Vanilla          |   46.59    |   12.25    |   35.20    |   20.43    | **65.66**  |  *81.67*   |
+|         STAR-1           |   18.41    |  *0.74*    |   16.80    |   35.37    |   54.55    |   72.92    |
+|        SAFEPATH          |   40.00    |   6.57     |   22.80    |   53.66    |   62.38    |   70.25    |
+|        SafeChain         |   47.95    |   16.39    |   28.40    |   70.73    |   54.30    |   71.70    |
+|         SafeKey          | **3.41**   | **0.32**   |  *7.32*    | **10.40**  |   54.30    |   71.70    |
+|    Safety Backtrack      |   14.55    |   2.77     |   8.80     |   23.17    |   61.62    |   77.08    |
+|  Safety Recomposition    |  *7.05*    |   1.49     | **3.20**   |  *17.07*   |  *62.38*   | **82.08**  |
 
 **Notes:**  
 - The results in this table are obtained using the **Qwen3-32B** model.  
@@ -166,13 +168,10 @@ COG/
 If you find this project useful for your research, please consider citing our paper:
 
 ```bibtex
-@misc{mao2025modelsoutthinksafetymitigating,
-      title={When Models Outthink Their Safety: Mitigating Self-Jailbreak in Large Reasoning Models with Chain-of-Guardrails}, 
-      author={Yingzhi Mao and Chunkang Zhang and Junxiang Wang and Xinyan Guan and Boxi Cao and Yaojie Lu and Hongyu Lin and Xianpei Han and Le Sun},
-      year={2025},
-      eprint={2510.21285},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2510.21285}, 
+@article{mao2025models,
+  title={When Models Outthink Their Safety: Mitigating Self-Jailbreak in Large Reasoning Models with Chain-of-Guardrails},
+  author={Mao, Yingzhi and Zhang, Chunkang and Wang, Junxiang and Guan, Xinyan and Cao, Boxi and Lu, Yaojie and Lin, Hongyu and Han, Xianpei and Sun, Le},
+  journal={arXiv preprint arXiv:2510.21285},
+  year={2025}
 }
 ```
